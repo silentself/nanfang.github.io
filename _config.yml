@@ -1,0 +1,67 @@
+#
+###################################
+# Site wide configuration
+####################################
+#
+title: silentself
+email: silentself@126.com
+description: silentself's blog,powered by jekyll.
+url: https://silentself.github.io # the base hostname & protocol for your site
+keywords: ["Programming", "Java", "Blog"]
+
+#
+###################################
+# Jekyll configuration
+####################################
+#
+timezone:          Asia/Beijing
+markdown:          kramdown
+highlighter:       rouge
+excerpt_separator: <!--more-->
+permalink:         /articles/:year-:month/:title
+
+kramdown:
+  auto_ids: true
+  footnote_nr: 1
+  entity_output: as_char
+  toc_levels: 1..6
+  enable_coderay: false
+
+#
+###################################
+# Site Owner configuration
+####################################
+#
+owner:
+  name: silentself
+  avatar: avatar.jpg
+  job: "Java Developer"
+  bio: "A backend developer who loves design awesome things. Working for CTJSoft at in BeiJing, China."
+  email: silentself@126.com
+  disqus-shortname: #username
+  twitter:  #username
+  facebook: #username
+  google:
+    plus: #username
+    analytics: UA-62251910-2
+    verify:
+    ad-client:
+    ad-slot:
+  bing-verify:
+  github: silentself #username
+  stackoverflow: #123456/username   from a "http://stackoverflow.com/users/123456/username" link
+  linkedin: #username
+  xing: #username
+  instagram: #username
+  lastfm: #username
+  tumblr: #username
+  pinterest: #username
+  foursquare: #username
+  steam: #username
+  dribbble: #username
+  youtube: #username
+  soundcloud: #username
+  weibo: #username
+  flickr: #username
+  codepen: #username
+  telegram: #username
